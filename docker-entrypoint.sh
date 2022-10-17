@@ -5,11 +5,13 @@ pwd
 echo "==========="
 ls /home
 echo "==========="
-ls /github
+ls /github/workflow
 echo "==========="
-ls /
+ls /github/home
 echo "==========="
-ls ..
+ls /home
+echo "==========="
+ls /user
 echo "==========="
 
 execute_ssh(){
