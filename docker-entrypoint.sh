@@ -123,7 +123,7 @@ if ! [ -z "$INPUT_COPY_STACK_FILE" ] && [ $INPUT_COPY_STACK_FILE = 'true' ] ; th
 else
   pwd  
   echo "==========="
-  ls /
+  ls /home/runner
   echo "==========="
   ls ./github
   echo "==========="
