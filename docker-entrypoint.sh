@@ -15,7 +15,7 @@ ls /github/home
 echo "==========="
 ls /usr
 echo "==========="
-find / -name SEPT-Project
+find / -name 'SEPT-Project'
 
 execute_ssh(){
   echo "Execute Over SSH: $@"
