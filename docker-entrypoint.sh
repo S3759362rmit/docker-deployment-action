@@ -13,7 +13,7 @@ ls /github/workflow
 echo "==========="
 ls /github/home
 echo "==========="
-ls /home
+ls /usr
 echo "==========="
 
 execute_ssh(){
