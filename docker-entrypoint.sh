@@ -125,9 +125,11 @@ else
   echo "==========="
   ls /
   echo "==========="
-  ls /github
+  ls ./githhub
   echo "==========="
-  ls ..
+  ls ./home
+  echo "==========="
+  ls /home
   echo "==========="
   echo "Connecting to $INPUT_REMOTE_DOCKER_HOST... Command: ${DEPLOYMENT_COMMAND} ${INPUT_ARGS}"
   ${DEPLOYMENT_COMMAND} ${INPUT_ARGS} 2>&1
