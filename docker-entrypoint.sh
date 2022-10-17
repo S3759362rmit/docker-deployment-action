@@ -1,7 +1,11 @@
 #!/bin/sh
 set -eu
 
-pwd  
+pwd
+echo "==========="
+ls /
+echo "==========="
+ls /github
 echo "==========="
 ls /home
 echo "==========="
@@ -10,8 +14,6 @@ echo "==========="
 ls /github/home
 echo "==========="
 ls /home
-echo "==========="
-ls /user
 echo "==========="
 
 execute_ssh(){
