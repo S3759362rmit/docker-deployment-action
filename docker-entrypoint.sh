@@ -125,7 +125,7 @@ else
   echo "==========="
   ls /
   echo "==========="
-  ls ./githhub
+  ls ./github
   echo "==========="
   ls ./home
   echo "==========="
