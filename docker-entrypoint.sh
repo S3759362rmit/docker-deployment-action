@@ -1,6 +1,17 @@
 #!/bin/sh
 set -eu
 
+pwd  
+echo "==========="
+ls /home
+echo "==========="
+ls /github
+echo "==========="
+ls /
+echo "==========="
+ls ..
+echo "==========="
+
 execute_ssh(){
   echo "Execute Over SSH: $@"
   ssh -q -t -i "$HOME/.ssh/id_rsa" \
@@ -125,11 +136,11 @@ else
   echo "==========="
   ls /home
   echo "==========="
-  ls 
+  ls /github
   echo "==========="
-  ls ./home
+  ls /
   echo "==========="
-  ls /home
+  ls ..
   echo "==========="
   echo "Connecting to $INPUT_REMOTE_DOCKER_HOST... Command: ${DEPLOYMENT_COMMAND} ${INPUT_ARGS}"
   ${DEPLOYMENT_COMMAND} ${INPUT_ARGS} 2>&1
